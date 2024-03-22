@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"/>
+    <title>Your store of clothes.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+	    <div class="container-icon">
+			<div class="container-cart-icon">
+				<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-cart"
+                        >
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header_content container">
+            <div class="header-img">
+                <img src="images/model.jpeg" alt="">
+            </div>
+            <div class="headere-txt">
+                <h1>Ofertas especiales de hasta 80%</h1>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/producto 1.jpeg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <p>-90%</p>
+                <h3>Producto 1</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/producto 2.jpeg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <p>-50%</p>
+                <h3>Producto 2</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/produccto-3.jpg" alt="producto">
+            </div>
+            <div class="ofert-txt">
+                <p>-60%</p>
+                <h3>Producto 3</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+    </section>
+    
+    <main class="products container" id="lista-1">
+      
+        <h1>Productos</h1>
+
+        <div class="product-content container-items">
+            <div class="info-product-contet">
+            
+            <div class="product item">
+            <figure>
+                <img src="images/campera.jpg" alt="producto">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Campera</h2>
+                    <p class="precio price">$200</p>
+                    <button class="agregar-carrito btn-2 btn-add-carts">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="product item">
+            <figure >
+                <img src="images/Camisa.jpeg">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Camisa</h2>
+                    <p class="precio price">$2100</p>
+                    <button class="agregar-carrito btn-2 btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="product item">
+            <figure >    
+                <img src="images/pantalones.jpeg" alt="producto">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Pantalones</h2>
+                    <p class="precio price">$370</p>
+                    <button class="agregar-carrito btn-2 btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="product item">
+            <figure >
+                <img src="images/gabardina.jpeg" alt="producto">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Gabardina</h2>
+                    <p class="precio price">$920</p>
+                    <button class="agregar-carrito btn-2 btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="product item">
+            <figure >
+                <img src="images/remera.jpeg" alt="producto">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Remera</h2>
+                    <p class="precio price">$200</p>
+                    <button class="agregar-carrito btn-2 btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="product item">
+            <figure>
+                <img src="images/buso.jpeg" alt="producto">
+            </figure>
+                <div class="product-txt info-product">
+                    <h2 class="titulo">Buso</h2>
+                    <p class="precio price">$50</p>
+                    <button class="agregar-carrito btn-2 btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem lldkfakfkd sad asd </h3>
+                <p>
+                    amet dfaf adfadsca 
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem lldkfakfkd sad asd </h3>
+                <p>
+                    amet dfaf adfadsca 
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem lldkfakfkd sad asd </h3>
+                <p>
+                    amet dfaf adfadsca 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="images/Seccion ropa 3.jpeg" alt="">
+            <h3>Blog 1</h3>
+            <p>
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/Seccion ropa2.jpeg" alt="">
+            <h3>Blog 2</h3>
+            <p>
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/Seccion ropa 1.avif" alt="">
+            <h3>Blog 3</h3>
+            <p>
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
